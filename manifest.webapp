@@ -1,0 +1,27 @@
+{
+  "name": "Text Store",
+  
+  "description": "An app you can store your texts with.",
+  
+  "launch_path": "/index.html",
+  
+  "icons": {
+    "128": "/img/icon-128.png",
+	"512": "/img/icon-512.png"
+  },
+  
+  "developer": {
+    "name": "Halasi Péter",
+    "url": ""
+  },
+  
+  "default_locale": "hu",
+  
+  "type": "privileged",
+  
+  "permissions": {
+	"device-storage:pictures": {"access":"readonly"},
+	"device-storage:sdcard": {"access":"readwrite"}
+  }
+
+}
